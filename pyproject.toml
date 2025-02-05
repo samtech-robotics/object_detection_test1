@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "object-detection"
+version = "0.1.0"
+description = ""
+authors = ["narendra-bluebash <narendra.dangi@bluebash.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+opencv-python = "^4.11.0.86"
+flask = "^3.1.0"
+tensorflow = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
